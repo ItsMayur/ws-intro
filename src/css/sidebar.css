@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.SideBox {
+  position: fixed;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  width: 8vw;
+  height: 100vh;
+}
+#Logo {
+  width: 8vw;
+}
+.SideBox ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.SideBox ul li {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+.sideIcons {
+  text-decoration: none;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 14vh;
+  width: 8vw;
+  color: black;
+}
+
+.sideIcons:hover {
+  color: green;
+  transition: 0.4s;
+}
+
+.loginBtns {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginBtns a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+  height: 4vh;
+  width: 6vw;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.loginBtns input:hover {
+  cursor: pointer;
+}
+#Join {
+  background-color: #ff0000;
+}
+#Contact {
+  background: green;
+}

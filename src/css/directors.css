@@ -1,0 +1,16 @@
+.directors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10vw;
+  height: 60vh;
+  background-color: rgba(0, 0, 128, 0.876);
+  color: white;
+}
+.directors h2 {
+  margin-bottom: 2vh;
+}
+.directors p {
+  margin-bottom: 1.5vh;
+}
