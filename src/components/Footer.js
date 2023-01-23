@@ -1,9 +1,9 @@
 import React from "react";
 import "../css/footer.css";
 
-function Footer() {
+function Footer(promps) {
   return (
-    <footer className="rightBar">
+    <footer className="rightBar" id="Width100">
       <p id="Copyright">Copyright © 2023 WS CONSULTING PRIVATE LIMITED</p>
       <div className="socialMedia">
         <a href="" className="socialIcons facebook">

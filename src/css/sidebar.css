@@ -23,13 +23,14 @@
   justify-content: space-evenly;
 }
 .SideBox ul li {
+  font-size: smaller;
   display: flex;
   flex-direction: column;
   justify-items: center;
 }
 .sideIcons {
   text-decoration: none;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,7 +40,7 @@
 }
 
 .sideIcons:hover {
-  color: green;
+  color: #00b4d8;
   transition: 0.4s;
 }
 
@@ -69,5 +70,5 @@
   background-color: #ff0000;
 }
 #Contact {
-  background: green;
+  background: #03045e;
 }

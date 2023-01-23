@@ -9,10 +9,9 @@ footer {
 }
 
 .socialIcons {
-  margin: 0 0.2vw;
+  margin: 0 0.4vw;
   color: white;
-  padding: 10px;
-  background-color: gold;
+  padding: 8px 10px;
   border-radius: 1000px;
 }
 .facebook {

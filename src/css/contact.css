@@ -1,18 +1,19 @@
+.contactBox {
+  width: 92vw;
+  display: flex;
+  align-items: center;
+}
 .contact {
+  height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 40vw;
-  height: 60vh;
-  background-color: black;
-  color: white;
 }
 
 .contactDiv {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  margin-left: 5vw;
 }
 .infoBox {
   margin: 2vw;

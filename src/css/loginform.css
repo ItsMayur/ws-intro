@@ -1,0 +1,29 @@
+.LoginNav {
+  height: 10vh;
+  display: flex;
+  background: green;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo {
+  height: 10vh;
+}
+.loginFormBtns {
+  display: flex;
+  list-style: none;
+}
+.loginFormBtns li a {
+  margin: 0 2vw;
+  text-decoration: none;
+  color: white;
+  padding-bottom: 0.5vh;
+}
+#Active {
+  border-bottom: solid 2px white;
+}
+.loginContent {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

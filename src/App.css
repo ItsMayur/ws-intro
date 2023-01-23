@@ -5,13 +5,14 @@
   flex-direction: column;
 }
 .rightBar {
-  width: 91vw;
+  width: 92vw;
 }
 /* ////// */
 
 ::-webkit-scrollbar {
   z-index: 1;
   width: 0.5vw;
+  height: 0;
 }
 ::-webkit-scrollbar-track {
   background-color: #c2c2c2;

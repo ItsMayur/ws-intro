@@ -1,16 +1,46 @@
 .directors {
+  background-image: url("../img/leaders.jpg");
+  background-color: #005b6e;
+  background-blend-mode: multiply;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 10vw;
-  height: 60vh;
-  background-color: rgba(0, 0, 128, 0.876);
+  height: 90vh;
   color: white;
 }
-.directors h2 {
+
+.directors h1 {
   margin-bottom: 2vh;
 }
 .directors p {
+  text-align: center;
   margin-bottom: 1.5vh;
+}
+.directorIntro {
+  margin: 10vh 0;
+  width: 82vw;
+  height: 30vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.directorIntro img {
+  border-radius: 400px;
+  border: solid 0.15rem #03045e;
+  background: #000;
+  width: 12vw;
+  height: 12vw;
+}
+.directorLinkedin {
+  margin: 0.2vw 0.2vw;
+  color: white;
+  padding: 10px;
+  border-radius: 1000px;
+  background: #0a66c2;
+}
+.director {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
