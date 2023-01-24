@@ -1,21 +1,20 @@
 .directors {
-  background-image: url("../img/leaders.jpg");
-  background-color: #005b6e;
+  /* background-image: url("../img/leaders.jpg");/ */
+  background-color: #002440;
   background-blend-mode: multiply;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 100vh;
   color: white;
 }
-
-.directors h1 {
-  margin-bottom: 2vh;
+.directorsHeading {
+  border-bottom: solid 0.5vh white;
+  border-radius: 5px;
+  margin: 5vh 0;
 }
-.directors p {
-  text-align: center;
-  margin-bottom: 1.5vh;
+.directorsText {
+  margin: 0 10vw;
 }
 .directorIntro {
   margin: 10vh 0;

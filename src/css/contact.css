@@ -1,5 +1,6 @@
 .contactBox {
-  width: 92vw;
+  background-color: #90e0ef;
+  width: 91vw;
   display: flex;
   align-items: center;
 }
@@ -23,4 +24,9 @@
 }
 .infoBox p {
   margin: 1vh 0vh;
+}
+.google-map-code {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5vw;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../Footer";
+import Footer from "../Home/Footer";
 import LoginNav from "./LoginNav";
 import SignInBox from "./SignInBox";
 

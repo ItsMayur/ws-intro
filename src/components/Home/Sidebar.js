@@ -1,8 +1,7 @@
 import React from "react";
-import "../css/sidebar.css";
-import Logo from "../img/logo.jpg";
+import "../../css/sidebar.css";
+import Logo from "../../img/logo.jpg";
 
-import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faRankingStar,
@@ -27,28 +26,28 @@ function Sidebar(promps) {
             <img src={Logo} alt="" id="Logo" />
           </li>
         </a>
-        <a className="sideIcons" href="">
+        <a className="sideIcons" href="#TAGLINE">
           <li>
             {RankingStar}
             <p>Driving Force</p>
           </li>
         </a>
-        <a className="sideIcons" href="">
+        <a className="sideIcons" href="#ABOUT">
           <li>
             {PeopleGroup}
             <p>About us</p>
           </li>
         </a>
-        <a className="sideIcons" href="">
+        <a className="sideIcons" href="#WORKBOX">
           <li>
             {Briefcase}
             <p>Our work</p>
           </li>
         </a>
-        <a className="sideIcons" href="">
+        <a className="sideIcons" href="#DIRECTORS">
           <li>
             {DiceD20}
-            <p>Impact</p>
+            <p>WS TEAM</p>
           </li>
         </a>
         <a className="sideIcons" href="">
@@ -58,10 +57,10 @@ function Sidebar(promps) {
           </li>
         </a>
         <div className="loginBtns">
-          <a href="" id="Join">
+          <a href="/JoinUs" id="Join">
             Join Us
           </a>
-          <a href="" id="Contact">
+          <a href="#CONTACT" id="Contact">
             Contact
           </a>
         </div>

@@ -1,0 +1,16 @@
+.notFoundPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#Heading404 {
+  text-decoration: none;
+  color: #0a66c2;
+}
+.Img404 {
+  height: 50vh;
+  width: 50vw;
+}

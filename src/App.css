@@ -1,3 +1,6 @@
+* {
+  scroll-behavior: smooth;
+}
 .sections {
   position: absolute;
   right: 0;
@@ -5,7 +8,8 @@
   flex-direction: column;
 }
 .rightBar {
-  width: 92vw;
+  width: 91.5vw;
+  align-self: flex-end;
 }
 /* ////// */
 

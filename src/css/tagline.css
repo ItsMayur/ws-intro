@@ -1,4 +1,6 @@
 .tagline {
+  background-color: #90e0ef;
+
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -6,7 +8,8 @@
 }
 .headImg {
   width: 40vw;
+  pointer-events: none;
 }
-.headContent {
-  color: black;
+.headContent h1 {
+  color: #03045e;
 }

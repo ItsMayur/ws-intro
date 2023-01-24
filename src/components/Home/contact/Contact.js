@@ -1,10 +1,10 @@
 import React from "react";
-import "../../css/contact.css";
+import "../../../css/contact.css";
 import Map from "./Map";
 
 function Contact() {
   return (
-    <div className="contactBox">
+    <div className="contactBox" id="CONTACT">
       <div className="map">
         <Map />
       </div>
@@ -22,7 +22,7 @@ function Contact() {
           <i class="fa-solid fa-2x fa-envelope"></i>
           <div className="infoBox">
             <h3>Email</h3>
-            <p>Winnix.seekers@outlook.com</p>
+            <p>winnix.seekers@outlook.com</p>
           </div>
         </div>
       </div>

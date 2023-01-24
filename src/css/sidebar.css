@@ -4,15 +4,16 @@
   box-sizing: border-box;
 }
 .SideBox {
+  background-color: white;
   position: fixed;
   left: 0;
   display: flex;
   justify-content: center;
-  width: 8vw;
+  width: 8.1vw;
   height: 100vh;
 }
 #Logo {
-  width: 8vw;
+  width: 8.1vw;
 }
 .SideBox ul {
   list-style: none;
@@ -20,7 +21,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .SideBox ul li {
   font-size: smaller;
@@ -38,7 +39,6 @@
   width: 8vw;
   color: black;
 }
-
 .sideIcons:hover {
   color: #00b4d8;
   transition: 0.4s;

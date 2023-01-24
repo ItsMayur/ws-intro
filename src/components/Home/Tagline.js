@@ -1,10 +1,10 @@
 import React from "react";
-import politicalCandidate from "../img/politicalCandidate.svg";
-import "../css/tagline.css";
+import politicalCandidate from "../../img/politicalCandidate.svg";
+import "../../css/tagline.css";
 
 function tagline() {
   return (
-    <div className="tagline rightBar">
+    <div className="tagline rightBar" id="TAGLINE">
       <div className="headImg">
         <img src={politicalCandidate} alt="" srcset="" />
       </div>

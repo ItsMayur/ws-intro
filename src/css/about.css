@@ -1,0 +1,20 @@
+#ABOUT {
+  background-color: #002440;
+  color: white;
+  width: 91.5vw;
+  display: flex;
+  align-self: flex-end;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10vw;
+  height: 100vh;
+  align-items: center;
+}
+.aboutHeading {
+  color: white;
+  border-bottom: solid 0.5vh white;
+  border-radius: 5px;
+  margin: 5vh 0;
+}
