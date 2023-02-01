@@ -1,6 +1,5 @@
 import React from "react";
 import JoinUs from "./JoinUs";
-
 function Department1() {
   return (
     <div className="">

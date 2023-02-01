@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+.hambergerImg {
+  display: none;
+}
+.sideBarLogo {
+  background: #000;
+}
 .SideBox {
   background-color: white;
   position: fixed;
@@ -12,7 +18,11 @@
   width: 8.1vw;
   height: 100vh;
 }
+#HamburgerIcon {
+  display: none;
+}
 #Logo {
+  pointer-events: none;
   width: 8.1vw;
 }
 .SideBox ul {
@@ -71,4 +81,73 @@
 }
 #Contact {
   background: #03045e;
+}
+/* Responsive for mobiles */
+@media only screen and (max-width: 768px) {
+  .SideBox {
+    margin-top: 8vh;
+  }
+  .sideIcons {
+    width: 100vw;
+    height: 6vh;
+    border: none;
+    margin: 1vh;
+  }
+  .sideBarLogo {
+    display: none;
+  }
+  .topNavRes {
+    background: black;
+    z-index: 2;
+
+    padding: 1.5vh 2vh;
+    display: flex;
+    position: fixed;
+    height: 8vh;
+    width: 100vw;
+  }
+  .hambergerImg {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .hambergerImg img {
+    height: 8vh;
+  }
+  .loginBtns {
+    flex-direction: row;
+  }
+  .loginBtns a {
+    width: 30vw;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  #HamburgerIcon {
+    color: white;
+    z-index: 2;
+    padding: 1vh 2vh;
+    display: block;
+    position: fixed;
+    right: 1vw;
+    top: 1.5vh;
+  }
+
+  #HamToggleId {
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+    height: 48vh;
+
+    top: 0;
+    display: none;
+  }
+  #Logo {
+    height: 7vh;
+  }
 }

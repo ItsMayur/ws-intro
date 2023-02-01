@@ -1,11 +1,10 @@
 .directors {
-  /* background-image: url("../img/leaders.jpg");/ */
-  background-color: #002440;
+  background-image: url("../img/leaders.jpg");
+  background-color: #001424;
   background-blend-mode: multiply;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
   color: white;
 }
 .directorsHeading {
@@ -19,7 +18,6 @@
 .directorIntro {
   margin: 10vh 0;
   width: 82vw;
-  height: 30vh;
   display: flex;
   justify-content: space-evenly;
 }
@@ -28,6 +26,8 @@
   border-radius: 400px;
   border: solid 0.15rem #03045e;
   background: #000;
+
+  pointer-events: none;
   width: 12vw;
   height: 12vw;
 }
@@ -42,4 +42,28 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .directors {
+    width: 100vw;
+  }
+  .directorsHeading {
+    font-size: 10px;
+  }
+  .directorIntro {
+    width: 90vw;
+    flex-direction: column;
+    margin: 7vh 0;
+  }
+  .director {
+    margin: 2vh 0;
+  }
+  .directorIntro img {
+    width: 20vh;
+    height: 20vh;
+  }
+  .directorsText {
+    width: 90vw;
+  }
 }

@@ -3,7 +3,7 @@ import "../../css/footer.css";
 
 function Footer(promps) {
   return (
-    <footer className="rightBar" id="Width100">
+    <footer className="rightBar footer1" id="Width100">
       <p id="Copyright">Copyright © 2023 WS CONSULTING PRIVATE LIMITED</p>
       <div className="socialMedia">
         <a href="" className="socialIcons facebook">
@@ -18,7 +18,11 @@ function Footer(promps) {
         <a href="" className="socialIcons youtube">
           <i class="fa-brands fa-youtube"></i>
         </a>
-        <a href="" className="socialIcons linkedin">
+        <a
+          href="https://www.linkedin.com/company/winnix-seekers/"
+          target="_blank"
+          className="socialIcons linkedin"
+        >
           <i class="fa-brands fa-linkedin"></i>
         </a>
       </div>

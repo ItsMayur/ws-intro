@@ -1,7 +1,7 @@
 .LoginNav {
   height: 10vh;
   display: flex;
-  background: green;
+  background-color: black;
   justify-content: space-between;
   align-items: center;
 }
@@ -22,8 +22,58 @@
   border-bottom: solid 2px white;
 }
 .loginContent {
+  background: #90e0ef;
   height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#SignIn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50vw;
+  height: 80vh;
+  background-color: #03045e;
+  border-radius: 20px;
+}
+.signInHeading {
+  border-bottom: solid 0.5vh white;
+  border-radius: 5px;
+  font-size: larger;
+  color: white;
+  margin: 5vh 0;
+}
+.inputs {
+  color: #90e0ef;
+  display: flex;
+
+  flex-direction: column;
+}
+.inputs i {
+  margin-right: 1vw;
+}
+.inputs input {
+  all: unset;
+  color: #90e0ef;
+  height: 5vh;
+  width: 20vw;
+  padding-left: 1vw;
+  margin: 2vh 0;
+  border-left: solid 2px #90e0ef;
+}
+.inputFeilds {
+  margin: 2vh 0;
+}
+.inputFeilds p {
+  color: white;
+  font-size: small;
+}
+.signInBtn button {
+  font-weight: bolder;
+  height: 5vh;
+  width: 25vw;
+  background-color: #90e0ef;
+  border: none;
 }

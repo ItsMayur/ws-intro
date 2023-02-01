@@ -18,53 +18,75 @@ const DiceD20 = <FontAwesomeIcon icon={faDiceD20} />;
 const SatelliteDish = <FontAwesomeIcon icon={faSatelliteDish} />;
 
 function Sidebar(promps) {
+  function HamToggle() {
+    if (window.innerWidth <= 768) {
+      var x = document.getElementById("HamToggleId");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  }
   return (
-    <div className="SideBox">
-      <ul>
-        <a className="sideIcons">
-          <li>
-            <img src={Logo} alt="" id="Logo" />
-          </li>
-        </a>
-        <a className="sideIcons" href="#TAGLINE">
-          <li>
-            {RankingStar}
-            <p>Driving Force</p>
-          </li>
-        </a>
-        <a className="sideIcons" href="#ABOUT">
-          <li>
-            {PeopleGroup}
-            <p>About us</p>
-          </li>
-        </a>
-        <a className="sideIcons" href="#WORKBOX">
-          <li>
-            {Briefcase}
-            <p>Our work</p>
-          </li>
-        </a>
-        <a className="sideIcons" href="#DIRECTORS">
-          <li>
-            {DiceD20}
-            <p>WS TEAM</p>
-          </li>
-        </a>
-        <a className="sideIcons" href="">
-          <li>
-            {SatelliteDish}
-            <p>Media</p>
-          </li>
-        </a>
-        <div className="loginBtns">
-          <a href="/JoinUs" id="Join">
-            Join Us
-          </a>
-          <a href="#CONTACT" id="Contact">
-            Contact
-          </a>
+    <div>
+      <div className="topNavRes">
+        <div className="hambergerImg">
+          {" "}
+          <img src={Logo} alt="" />
         </div>
-      </ul>
+
+        <a onClick={HamToggle} id="HamburgerIcon">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <div id="HamToggleId" className="SideBox">
+        <ul>
+          <a className="sideIcons sideBarLogo">
+            <li>
+              <img src={Logo} alt="" id="Logo" />
+            </li>
+          </a>
+          <a onClick={HamToggle} className="sideIcons" href="#TAGLINE">
+            <li>
+              {RankingStar}
+              <p>Driving Force</p>
+            </li>
+          </a>
+          <a onClick={HamToggle} className="sideIcons" href="#ABOUT">
+            <li>
+              {PeopleGroup}
+              <p>About us</p>
+            </li>
+          </a>
+          <a onClick={HamToggle} className="sideIcons" href="#WORKBOX">
+            <li>
+              {Briefcase}
+              <p>Our work</p>
+            </li>
+          </a>
+          <a onClick={HamToggle} className="sideIcons" href="#DIRECTORS">
+            <li>
+              {DiceD20}
+              <p>WS TEAM</p>
+            </li>
+          </a>
+          <a onClick={HamToggle} className="sideIcons" href="">
+            <li>
+              {SatelliteDish}
+              <p>Media</p>
+            </li>
+          </a>
+          <div className="loginBtns">
+            <a href="/JoinUs" id="Join">
+              Join Us
+            </a>
+            <a href="#CONTACT" id="Contact">
+              Contact
+            </a>
+          </div>
+        </ul>
+      </div>
     </div>
   );
 }

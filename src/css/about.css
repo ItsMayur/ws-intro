@@ -3,13 +3,11 @@
   color: white;
   width: 91.5vw;
   display: flex;
-  align-self: flex-end;
 }
 .about {
   display: flex;
-  flex-direction: column;
-  margin: 0 10vw;
-  height: 100vh;
+  margin: 5vh 10vw;
+  justify-content: space-evenly;
   align-items: center;
 }
 .aboutHeading {
@@ -17,4 +15,56 @@
   border-bottom: solid 0.5vh white;
   border-radius: 5px;
   margin: 5vh 0;
+}
+
+#PublicImg {
+  padding: 0.3rem;
+  border: solid 1px white;
+  align-self: flex-start;
+  filter: grayscale(100%);
+  width: 25vw;
+  aspect-ratio: auto;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+#PublicImg:hover {
+  width: 26vw;
+  transition: 0.5s;
+}
+
+#AboutPara {
+  width: 40vw;
+}
+.aboutContent {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  #ABOUT {
+    width: 100vw;
+  }
+  .about {
+    width: 100vw;
+    margin: 5vh 0vw;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  #PublicImg {
+    height: 20vh;
+    width: auto;
+    aspect-ratio: auto;
+    pointer-events: none;
+  }
+
+  .aboutContent {
+    width: 100vw;
+  }
+  #AboutPara {
+    width: 90vw;
+  }
 }

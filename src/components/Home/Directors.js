@@ -1,7 +1,7 @@
 import React from "react";
 import "../../css/directors.css";
 import dr1 from "../../img/directors/dr1.jpg";
-import dr2 from "../../img/directors/dr2.jpg";
+import dr2 from "../../img/directors/dr2.png";
 
 function directors() {
   return (
@@ -29,17 +29,20 @@ function directors() {
         <div className="director">
           <img src={dr2} alt="" />
           <h2>Mayur Sehgal</h2>
-          <p>CTO</p>
-          <a href="">
+          <p>CHEIF TECNOLOGIST</p>
+          <a href="https://www.linkedin.com/in/itsmayur718/" target="_blank">
             {" "}
             <i class="fa-brands fa-linkedin directorLinkedin"></i>
           </a>
         </div>
         <div className="director">
           <img src={dr1} alt="" />
-          <h2>Avinash</h2>
-          <p>TEAM LEAD</p>
-          <a href="">
+          <h2>Avinash Yahav</h2>
+          <p>FOUNDER</p>
+          <a
+            href="https://www.linkedin.com/in/avinash-yadav-33b488217/"
+            target="_blank"
+          >
             {" "}
             <i class="fa-brands fa-linkedin directorLinkedin"></i>
           </a>

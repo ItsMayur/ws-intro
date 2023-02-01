@@ -1,6 +1,5 @@
 .workBox {
   background-color: #90e0ef;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,6 +15,7 @@
   display: flex;
   width: 70vw;
   flex-direction: column;
+  margin-bottom: 5vh;
 }
 .workTab {
   display: flex;
@@ -27,5 +27,20 @@
   pointer-events: none;
 }
 .workContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 40vw;
+}
+@media only screen and (max-width: 768px) {
+  .workColumn {
+    width: 90vw;
+  }
+  .workTab img {
+    width: 40vw;
+  }
+  .workContent {
+    margin: 8vh 0;
+    width: 90vw;
+  }
 }

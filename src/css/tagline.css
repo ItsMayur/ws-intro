@@ -1,6 +1,5 @@
 .tagline {
   background-color: #90e0ef;
-
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -12,4 +11,26 @@
 }
 .headContent h1 {
   color: #03045e;
+}
+@media only screen and (max-width: 768px) {
+  .tagline {
+    width: 100vw;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .headImg {
+    width: 70vw;
+  }
+  .headContent {
+    margin: 10vw;
+    justify-content: center;
+  }
+  .headContent h2 {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .headImg {
+    margin-top: 10vh;
+  }
 }

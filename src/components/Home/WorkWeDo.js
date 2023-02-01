@@ -4,6 +4,9 @@ import compaign from "../../img/Compaign.svg";
 import politicalCandidate from "../../img/politicalCandidate.svg";
 import SocialMediaManagment from "../../img/SocialMediaManagment.svg";
 import Checklist from "../../img/Checklist.svg";
+import DataAnalytic from "../../img/DataAnalytics.svg";
+import keywords from "../../img/keywords.svg";
+import promo from "../../img/promo.svg";
 
 function WorkWeDo() {
   return (
@@ -50,10 +53,43 @@ function WorkWeDo() {
             <p>
               ANALISING PEOPLE DEMAND IS CONSIDERED AS A MAJOR RESPOSIBILTY FOR
               A POLITICIAN.WINNER SEEKERS WILL HELP YOU TO MAKE THIS TASK EASY
-              THROUGH OUR DETAILED REPORTS BASED ON SURVEYS
+              THROUGH OUR DETAILED KEYWORDS FOR YOUR UPCOMING SPEECH
             </p>
           </div>
           <img src={Checklist} alt="" />
+        </div>
+        <div className="workTab">
+          <img src={keywords} alt="" />
+          <div className="workContent">
+            <h2>KEYWORD FOR SPEECH</h2>
+            <p>
+              ANALISING PEOPLE DEMAND IS CONSIDERED AS A MAJOR RESPOSIBILTY FOR
+              A POLITICIAN.WINNER SEEKERS WILL HELP YOU TO MAKE THIS TASK EASY
+              THROUGH OUR DETAILED REPORTS BASED ON SURVEYS
+            </p>
+          </div>
+        </div>
+        <div className="workTab">
+          <div className="workContent">
+            <h2>PROMOTION AND ADVERTISING</h2>
+            <p>
+              You have so delicately handcrafted a message which is full of
+              potential to create an impact on the minds of your electorate.
+              Now, it is all the about the
+            </p>
+          </div>
+          <img src={promo} alt="" />
+        </div>
+        <div className="workTab">
+          <img src={DataAnalytic} alt="" />
+          <div className="workContent">
+            <h2>DATA ANALYTICS</h2>
+            <p>
+              With so much of data moving around and gathered everyday, it is
+              all upto how much of sense we can make out of it. As Max Levchin
+              said, “The world is now
+            </p>
+          </div>
         </div>
       </div>
     </div>
