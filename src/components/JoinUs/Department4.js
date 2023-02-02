@@ -3,16 +3,15 @@ import JoinUs from "./JoinUs";
 
 function Department4() {
   return (
-    <div className="">
+    <div className="departmentBox">
       <div className="joinHeading">
         <h1>JOIN US</h1>
       </div>
       <div className="joinUsBox">
         <JoinUs />
         <div className="departmentContent">
-          <div className="video"></div>
           <div className="data">
-            <h1 className="MainHeading"></h1>
+            <h1 className="MainHeading">DIGITAL COMMMUNICATION AND MEDIA</h1>
             <p className="MainContent"></p>
           </div>
         </div>

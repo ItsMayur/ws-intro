@@ -1,5 +1,6 @@
 import React from "react";
 import "../../css/joinUs.css";
+import leaders from "../../img/leaders.jpg";
 
 function JoinUs() {
   return (
@@ -24,7 +25,7 @@ function JoinUs() {
           </a>
           <a href="/JoinUs/DataAnalystics" className="department3 departments">
             <div className="departmentCircle3">
-              <i class="fa-sharp fa-2x fa-solid fa-database"></i>
+              <i class="fa-sharp 2x fa-solid fa-database"></i>
             </div>
             <p>Data Analytics & Technology</p>
           </a>

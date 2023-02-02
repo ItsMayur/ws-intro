@@ -13,12 +13,30 @@ function Home() {
       <div className="container">
         <Sidebar />
         <div className="sections">
-          <Tagline />
-          <About />
-          <WorkWeDo />
-          <Directors />
-          <Contact />
-          <Footer />
+          <section>
+            {" "}
+            <Tagline />
+          </section>
+          <section>
+            {" "}
+            <About />
+          </section>
+          <section>
+            {" "}
+            <WorkWeDo />
+          </section>
+          <section>
+            {" "}
+            <Directors />
+          </section>
+          <section>
+            {" "}
+            <Contact />
+          </section>
+          <section>
+            {" "}
+            <Footer />
+          </section>
         </div>
       </div>
     </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import axios from "axios";
 
 const SignInBox = () => {
   const [user, setUser] = useState({

@@ -7,10 +7,18 @@
   border-radius: 5px;
   margin: 5vh 0;
 }
+.leadersBg {
+  opacity: 1;
+  z-index: 0;
+  position: relative;
+  width: 100vw;
+}
 .joinUsBox {
   display: flex;
+  flex-direction: column;
 }
 .joinUs {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
 }
@@ -23,35 +31,39 @@
   border-radius: 5px;
   margin-bottom: 2vh;
 }
+
 .departmentsToJoin {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 18vw;
-  /* background: #000; */
+  overflow: auto;
+  white-space: nowrap;
+  width: 100vw;
 }
 .video {
+  margin: 10vh 0;
   background: #000;
   height: 50vh;
   width: 50vh;
 }
+.departmentsToJoin a {
+  /* display: inline-block; */
+  height: 200px;
+  margin: 2vw;
+}
 .departments {
-  border: none;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   font-size: small;
   text-decoration: none;
   color: #000;
   text-align: center;
-  height: 25vh;
-  width: 13vw;
-  margin: 1rem;
   border-radius: 15px;
 }
-
+.departments p {
+  margin: 5px;
+  width: 250px;
+}
 .department1 {
   background-color: rgba(171, 140, 218, 0.305);
 }
@@ -60,8 +72,8 @@
   align-items: center;
   border-radius: 100px;
   justify-content: center;
-  width: 5vw;
-  height: 5vw;
+  width: 40px;
+  height: 40px;
   color: white;
   background-color: rgba(72, 28, 138, 0.305);
 }
@@ -73,8 +85,8 @@
   align-items: center;
   border-radius: 100px;
   justify-content: center;
-  width: 5vw;
-  height: 5vw;
+  width: 40px;
+  height: 40px;
   color: white;
   background-color: rgba(38, 167, 167, 0.861);
 }
@@ -86,8 +98,8 @@
   align-items: center;
   border-radius: 100px;
   justify-content: center;
-  width: 5vw;
-  height: 5vw;
+  width: 40px;
+  height: 40px;
   color: white;
   background-color: rgba(94, 12, 115, 0.833);
 }
@@ -99,8 +111,8 @@
   align-items: center;
   border-radius: 100px;
   justify-content: center;
-  width: 5vw;
-  height: 5vw;
+  width: 40px;
+  height: 40px;
   color: white;
   background-color: rgba(26, 147, 26, 0.993);
 }
@@ -112,27 +124,30 @@
   align-items: center;
   border-radius: 100px;
   justify-content: center;
-  width: 5vw;
-  height: 5vw;
+  width: 40px;
+  height: 40px;
   color: white;
   background-color: rgb(210, 14, 14);
 }
 .departments:hover {
-  box-shadow: 0 0.5vh 0.8vh rgb(136, 136, 136);
+  box-shadow: 0 0.5vh 0.8vh gray;
   transition: 200ms;
 }
+
 .departmentContent {
-  width: 82vw;
+  padding: 10vw;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-self: center;
 }
 .main {
   display: flex;
 }
 .data {
-  width: 60vw;
+  width: 90vw;
 }
 .data p {
   font-size: large;
