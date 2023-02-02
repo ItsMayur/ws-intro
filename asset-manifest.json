@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/ws-intro/static/css/main.4a7fde6d.css",
+    "main.js": "/ws-intro/static/js/main.1c406e7f.js",
+    "static/js/787.a96234d1.chunk.js": "/ws-intro/static/js/787.a96234d1.chunk.js",
+    "static/media/leaders.jpg": "/ws-intro/static/media/leaders.d31b7254cbebd9f91add.jpg",
+    "static/media/dr2.png": "/ws-intro/static/media/dr2.e9d54a211cb54173eba6.png",
+    "static/media/public.png": "/ws-intro/static/media/public.5e81d05c643398b368cd.png",
+    "static/media/dr1.jpg": "/ws-intro/static/media/dr1.0022b7718dd329896eae.jpg",
+    "static/media/promo.svg": "/ws-intro/static/media/promo.d78a572b25ac3263cdb949023a8606da.svg",
+    "static/media/DataAnalytics.svg": "/ws-intro/static/media/DataAnalytics.b7b452a5ed7502ea54ff0007f9ffb773.svg",
+    "static/media/politicalCandidate.svg": "/ws-intro/static/media/politicalCandidate.b2b8218f390a1b9d5ae14e1b6f508604.svg",
+    "static/media/logo.jpg": "/ws-intro/static/media/logo.c41e1cf9d98065504267.jpg",
+    "static/media/keywords.svg": "/ws-intro/static/media/keywords.2ef6059e6c743a03d184dcfa6265a129.svg",
+    "static/media/Compaign.svg": "/ws-intro/static/media/Compaign.569acc9095071fa7a2bda4c356ef8bd5.svg",
+    "static/media/NotFound.svg": "/ws-intro/static/media/NotFound.c898447e78040f974c4e310df31dc11d.svg",
+    "static/media/SocialMediaManagment.svg": "/ws-intro/static/media/SocialMediaManagment.a6939ebac79e2639301f481791e3df91.svg",
+    "static/media/Checklist.svg": "/ws-intro/static/media/Checklist.f0e3b411b9bffe4001636849e37f8312.svg",
+    "index.html": "/ws-intro/index.html",
+    "main.4a7fde6d.css.map": "/ws-intro/static/css/main.4a7fde6d.css.map",
+    "main.1c406e7f.js.map": "/ws-intro/static/js/main.1c406e7f.js.map",
+    "787.a96234d1.chunk.js.map": "/ws-intro/static/js/787.a96234d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a7fde6d.css",
+    "static/js/main.1c406e7f.js"
+  ]
+}
